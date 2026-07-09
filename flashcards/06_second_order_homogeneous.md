@@ -29,7 +29,7 @@ A: If $y_1(x)$ and $y_2(x)$ are both solutions of $a(x)y'' + b(x)y' + c(x)y = 0$
 Q: Why does the superposition principle hold for homogeneous linear ODEs?
 A: Differentiation is a linear operation: $(c_1 y_1 + c_2 y_2)' = c_1 y_1' + c_2 y_2'$ and similarly for second derivatives. Substituting $c_1 y_1 + c_2 y_2$ into the left side of the ODE gives $c_1 \cdot (\text{LHS for } y_1) + c_2 \cdot (\text{LHS for } y_2) = c_1 \cdot 0 + c_2 \cdot 0 = 0$. The right-hand side being zero is essential — this fails for non-homogeneous equations.
 
-C: The superposition principle fails when the equation is [non-homogeneous], because substituting $c_1 y_1 + c_2 y_2$ into $L[y] = g(x)$ gives $c_1 g + c_2 g = (c_1 + c_2) g$, not $g$.
+C: The superposition principle fails when the equation is [non-homogeneous], because substituting $c_1 y_1 + c_2 y_2$ into $L\lbrack y\rbrack  = g(x)$ gives $c_1 g + c_2 g = (c_1 + c_2) g$, not $g$.
 
 Q: Why does superposition fail for nonlinear ODEs, even homogeneous ones?
 A: Nonlinear terms do not distribute over sums. For example, $(y_1 + y_2)^2 \neq y_1^2 + y_2^2$, so substituting a sum produces cross terms that the original solutions do not satisfy. Linearity is what makes the solution set closed under addition and scaling.

@@ -64,7 +64,7 @@ A: Both can be written using Euler's formula $e^{ibt} = \cos bt + i\sin bt$, who
 
 C: A function $f$ is of [exponential order] $c$ if there exist constants $M, c$ such that $|f(t)| \le M e^{ct}$ for all $t \ge 0$.
 
-C: A function is [piecewise continuous] on $[0,\infty)$ if on every finite subinterval it has at most finitely many jump discontinuities and is continuous elsewhere.
+C: A function is [piecewise continuous] on $\lbrack 0,\infty)$ if on every finite subinterval it has at most finitely many jump discontinuities and is continuous elsewhere.
 
 Q: Why do piecewise continuity and exponential order guarantee that $F(s)$ exists?
 A: Piecewise continuity ensures the integrand is integrable over any finite interval. Exponential order bounds $|f(t)| \le Me^{ct}$, so $|e^{-st}f(t)| \le Me^{-(s-c)t}$, which is integrable on $[0,\infty)$ whenever $s > c$. Together they make the improper integral converge for all sufficiently large $s$.
@@ -196,7 +196,7 @@ $$\mathcal{L}^{-1}\left\{\frac{s+2}{(s+2)^2+9}\right\} = e^{-2t}\cos(3t), \qquad
 
 ## 10.15 Convolution
 
-C: The [convolution] of $f$ and $g$ is $(f*g)(t) = \int_0^t f(\tau) g(t-\tau)\,d\tau$, where $\tau$ is a dummy integration variable ranging over $[0,t]$.
+C: The [convolution] of $f$ and $g$ is $(f*g)(t) = \int_0^t f(\tau) g(t-\tau)\,d\tau$, where $\tau$ is a dummy integration variable ranging over $\lbrack 0,t\rbrack $.
 
 C: Convolution theorem: $\mathcal{L}\{(f*g)(t)\} = [F(s)\,G(s)]$, where $F = \mathcal{L}\{f\}$ and $G = \mathcal{L}\{g\}$.
 

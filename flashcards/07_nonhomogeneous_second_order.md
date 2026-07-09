@@ -25,7 +25,7 @@ A: They sit in the complementary solution $y_c = c_1 y_1 + c_2 y_2$ and are fixe
 Q: Using linearity, why does $y = y_c + y_p$ solve $L[y] = g$, where $L = a\tfrac{d^2}{dx^2} + b\tfrac{d}{dx} + c$?
 A: Because $L$ is linear, $L[y_c + y_p] = L[y_c] + L[y_p]$. By construction $L[y_c] = 0$ and $L[y_p] = g$, so the sum gives $0 + g = g$. Linearity is exactly what lets us split the problem into homogeneous and particular pieces.
 
-C: The operator $L[y] = ay'' + by' + cy$ is [linear], meaning $L[\alpha u + \beta v] = \alpha L[u] + \beta L[v]$ for constants $\alpha, \beta$ and functions $u, v$.
+C: The operator $L\lbrack y\rbrack  = ay'' + by' + cy$ is [linear], meaning $L\lbrack \alpha u + \beta v\rbrack  = \alpha L\lbrack u\rbrack  + \beta L\lbrack v\rbrack $ for constants $\alpha, \beta$ and functions $u, v$.
 
 Q: If $y_{p,1}$ and $y_{p,2}$ are both particular solutions of $L[y] = g$, what is $y_{p,1} - y_{p,2}$?
 A: It is a solution of the homogeneous equation $L[y] = 0$, because $L[y_{p,1} - y_{p,2}] = g - g = 0$. This is why any one particular solution, combined with the full $y_c$, captures every solution.

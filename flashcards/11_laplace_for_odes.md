@@ -80,7 +80,7 @@ A: The shift theorem states $\mathcal{L}\{e^{at}f(t)\} = F(s-a)$, so shifts in $
 Q: Why is the Heaviside function $u_c(t)$ the natural tool for piecewise forcing?
 A: $u_c(t)$ switches from 0 to 1 at $t = c$, so multiplying any function by $u_c(t)$ activates it only for $t \ge c$. Any piecewise-defined forcing function can be rewritten as a sum of such shifted "switches," giving one clean algebraic expression instead of multiple cases.
 
-C: A forcing that equals $g_1(t)$ for $0 \le t < c$ and $g_2(t)$ for $t \ge c$ can be written $f(t) = g_1(t) + u_c(t)[g_2(t) - g_1(t)]$, where $u_c(t)$ is the [Heaviside step] at $t = c$.
+C: A forcing that equals $g_1(t)$ for $0 \le t < c$ and $g_2(t)$ for $t \ge c$ can be written $f(t) = g_1(t) + u_c(t)\lbrack g_2(t) - g_1(t)\rbrack $, where $u_c(t)$ is the [Heaviside step] at $t = c$.
 
 Q: Why does the piecewise rewrite use $g_2(t) - g_1(t)$ inside the Heaviside term?
 A: At $t = c$ the Heaviside switches on. Adding $g_2 - g_1$ at that moment cancels the active $g_1$ contribution and installs $g_2$ instead, producing a clean jump from $g_1$ to $g_2$ without leaving residual pieces behind.

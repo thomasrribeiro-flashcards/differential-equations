@@ -1,5 +1,6 @@
 +++
 order = 14
+subject = "Math"
 tags = ["math", "differential-equations", "ode", "nonlinear", "stability", "linearization", "lyapunov", "phase-plane"]
 +++
 

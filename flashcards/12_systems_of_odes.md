@@ -1,5 +1,6 @@
 +++
 order = 12
+subject = "Math"
 tags = ["math", "differential-equations", "ode", "systems", "eigenvalue-method", "phase-portrait", "matrix-exponential"]
 +++
 

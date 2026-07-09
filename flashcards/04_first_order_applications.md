@@ -1,5 +1,6 @@
 +++
 order = 4
+subject = "Math"
 tags = ["math", "differential-equations", "ode", "applications", "mixing", "cooling", "population", "rc-circuit"]
 +++
 

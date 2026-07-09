@@ -1,5 +1,6 @@
 +++
 order = 3
+subject = "Math"
 tags = ["math", "differential-equations", "ode", "exact", "bernoulli", "homogeneous-substitution", "first-order"]
 +++
 

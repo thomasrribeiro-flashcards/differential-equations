@@ -1,7 +1,6 @@
 +++
-name = "Differential Equations"
-subject = "Math"
 order = 1
+subject = "Math"
 tags = ["math", "differential-equations", "ode", "introduction", "ivp", "slope-field"]
 +++
 

@@ -1,5 +1,6 @@
 +++
 order = 13
+subject = "Math"
 tags = ["math", "differential-equations", "ode", "series-solutions", "frobenius", "ordinary-point", "regular-singular-point"]
 +++
 

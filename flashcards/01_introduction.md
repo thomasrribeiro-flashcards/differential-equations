@@ -1,6 +1,6 @@
 +++
 order = 1
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "introduction", "ivp", "slope-field"]
 +++
 
@@ -58,8 +58,8 @@ A: Because the term $y y'$ is a product of the unknown function $y$ with its der
 Q: Why is $y' + \sin(y) = 0$ nonlinear, where $y = y(x)$?
 A: Because $\sin(y)$ is a nonlinear function of the unknown $y$. In a linear ODE, $y$ may appear only to the first power multiplied by a coefficient depending on $x$; $\sin(y)$ expands to a power series in $y$ with terms $y, y^3, y^5, \ldots$, violating this requirement.
 
-Q: Is $y' + x^2 y = e^x$ linear, where $y = y(x)$?
-A: Yes. The unknown $y$ and its derivative $y'$ each appear to the first power, they are not multiplied together, and the coefficient $x^2$ of $y$ and the forcing term $e^x$ depend only on the independent variable $x$.
+Q: Why is $y' + x^2 y = e^x$ linear, where $y = y(x)$?
+A: The unknown $y$ and its derivative $y'$ each appear to the first power, they are not multiplied together, and the coefficient $x^2$ of $y$ and the forcing term $e^x$ depend only on the independent variable $x$.
 
 ## 1.5 Homogeneous vs Nonhomogeneous
 

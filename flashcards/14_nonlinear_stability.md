@@ -1,6 +1,6 @@
 +++
 order = 14
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "nonlinear", "stability", "linearization", "lyapunov", "phase-plane"]
 +++
 
@@ -35,7 +35,7 @@ C: An [equilibrium point] (or critical point) of $\vec{x}' = \vec{f}(\vec{x})$ i
 Q: Why is an equilibrium point also called a constant solution of the system?
 A: If $\vec{f}(\vec{x}^*) = \vec{0}$, then starting at $\vec{x}^*$ gives $\vec{x}'(t) = \vec{0}$ for all $t$, so $\vec{x}(t) \equiv \vec{x}^*$ is a valid (constant) solution. The system simply does not move.
 
-C: At an equilibrium point $\vec{x}^*$, the solution satisfies $\vec{x}(t) = [\vec{x}^*]$ for all $t$.
+C: At an equilibrium point $\vec{x}^*$, the solution starting there is [constant]: $\vec{x}(t) = \vec{x}^*$ for all $t$.
 
 ## 14.4 Finding Equilibria
 
@@ -80,7 +80,7 @@ A: Stability only requires trajectories to stay bounded near the equilibrium —
 Q: Why does Taylor expanding $\vec{f}$ around an equilibrium $\vec{x}^*$ give a useful approximation of the dynamics nearby?
 A: Near $\vec{x}^*$, the nonlinear terms become second-order small in $\vec{x} - \vec{x}^*$, so the linear term — the Jacobian times the displacement — dominates. This replaces an intractable nonlinear system with a 2D (or $n$D) linear system whose behavior we can fully classify using eigenvalues. The approximation is local but powerful.
 
-C: Near an equilibrium $\vec{x}^*$, the linearized system is $\vec{x}' \approx [J(\vec{x}^*)](\vec{x} - \vec{x}^*)$, where $J(\vec{x}^*)$ is the Jacobian matrix evaluated at $\vec{x}^*$.
+C: Near an equilibrium $\vec{x}^*$, the linearized system is $\vec{x}' \approx J(\vec{x}^*)(\vec{x} - \vec{x}^*)$, where $J(\vec{x}^*)$ is the [Jacobian matrix] evaluated at $\vec{x}^*$.
 
 Q: Why does the constant term $\vec{f}(\vec{x}^*)$ not appear in the linearization?
 A: Because $\vec{x}^*$ is an equilibrium, $\vec{f}(\vec{x}^*) = \vec{0}$, so the zeroth-order term in the Taylor expansion vanishes. The first surviving term is the Jacobian acting on the displacement $\vec{x} - \vec{x}^*$.
@@ -112,7 +112,7 @@ S:
 
 **EVALUATE**:
 - $\det J = 1 > 0$, $\operatorname{tr} J = 0$: eigenvalues are $\pm i$.
-- This suggests a center for the linearization (see 14.9 for caveats).
+- This suggests a center for the linearization; pure imaginary eigenvalues make the equilibrium non-hyperbolic, so linearization alone is inconclusive for the nonlinear system.
 
 ## 14.8 Hartman-Grobman Theorem (Informal)
 
@@ -184,7 +184,8 @@ A: The Jacobian at $(c/d, a/b)$ has pure imaginary eigenvalues, so linearization
 
 C: A [Lyapunov function] for an equilibrium $\vec{x}^*$ is a continuously differentiable scalar function $V(\vec{x})$ that is positive definite near $\vec{x}^*$ (meaning $V(\vec{x}^*) = 0$ and $V(\vec{x}) > 0$ elsewhere) with $\dot V(\vec{x}) \le 0$ along trajectories.
 
-C: The derivative of $V$ along trajectories is $\dot V = [\nabla V \cdot \vec{f}(\vec{x})]$, where $\nabla V$ is the gradient of $V$ and $\vec{f}$ is the vector field.
+Q: For the system $\vec{x}' = \vec{f}(\vec{x})$, what is the derivative of a scalar function $V$ along trajectories?
+A: $\dot V = \nabla V \cdot \vec{f}(\vec{x})$, where $\nabla V$ is the gradient of $V$.
 
 Q: Why does the existence of a Lyapunov function with $\dot V \le 0$ imply stability of the equilibrium?
 A: The level sets $V = c$ are nested around $\vec{x}^*$ because $V$ is positive definite. Since $\dot V \le 0$, trajectories cannot cross outward through level sets — they are trapped inside whichever level set they start on. A trajectory starting inside a small level set stays inside a small neighborhood. That's the definition of stability.

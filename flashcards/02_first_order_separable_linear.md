@@ -1,6 +1,6 @@
 +++
 order = 2
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "separable", "integrating-factor", "first-order"]
 +++
 
@@ -16,11 +16,11 @@ C: A first-order ODE is called [separable] when it can be written in the form $\
 Q: Why does "separating variables" work as a solution method?
 A: Because $g(x)$ and $h(y)$ depend on disjoint variables, we can rewrite the equation so that all $y$-dependence sits with $dy$ and all $x$-dependence sits with $dx$. Once each side is a function of only one variable, standard integration recovers an antiderivative on each side, linked by a single constant.
 
-Q: Is $\frac{dy}{dx} = x + y$ separable?
-A: No. The right-hand side is a sum of a function of $x$ and a function of $y$, not a product $g(x)h(y)$, so it cannot be factored into the separable form. It requires a different technique (it is actually linear in $y$).
+Q: Why is $\frac{dy}{dx} = x + y$ not separable?
+A: The right-hand side is a sum of a function of $x$ and a function of $y$, not a product $g(x)h(y)$, so it cannot be factored into the separable form. It requires a different technique (it is actually linear in $y$).
 
-Q: Is $\frac{dy}{dx} = xy + x$ separable?
-A: Yes. Factoring gives $\frac{dy}{dx} = x(y+1) = g(x)h(y)$ with $g(x) = x$ and $h(y) = y+1$, so it is separable even though it did not appear so at first glance.
+Q: Why is $\frac{dy}{dx} = xy + x$ separable even though it does not look separable at first glance?
+A: Factoring gives $\frac{dy}{dx} = x(y+1) = g(x)h(y)$ with $g(x) = x$ and $h(y) = y+1$, so it is separable.
 
 ## 2.2 Solution Technique for Separable Equations
 

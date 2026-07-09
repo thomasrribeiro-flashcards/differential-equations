@@ -1,6 +1,6 @@
 +++
 order = 3
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "exact", "bernoulli", "homogeneous-substitution", "first-order"]
 +++
 
@@ -138,7 +138,8 @@ A: Back-substitute using $v = y^{1-n}$, so $y = v^{1/(1-n)}$. Sign choices may m
 Q: Given a non-separable, non-linear first-order ODE, what decision procedure picks the right method?
 A: Step 1: put it in differential form $M\,dx + N\,dy = 0$ and test exactness ($M_y = N_x$); if exact, build $F$. Step 2: if not exact, check whether $(M_y - N_x)/N$ is a function of $x$ alone (or $(N_x - M_y)/M$ is $y$-only) for an integrating factor. Step 3: if $dy/dx$ can be written as $f(y/x)$, use $v = y/x$. Step 4: if it fits $y' + P(x)y = Q(x)y^n$, use Bernoulli's $v = y^{1-n}$.
 
-C: The substitution $v = y/x$ is the go-to choice when $dy/dx$ depends only on the ratio [y/x].
+Q: For which class of first-order ODEs is the substitution $v = y/x$ the go-to choice?
+A: Homogeneous equations, where $dy/dx = f(y/x)$ depends only on the ratio $y/x$.
 
 C: The substitution $v = y^{1-n}$ is the go-to choice for equations of the form $y' + P(x)y = [Q(x)y^n]$ with $n \neq 0, 1$.
 

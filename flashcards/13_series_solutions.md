@@ -1,6 +1,6 @@
 +++
 order = 13
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "series-solutions", "frobenius", "ordinary-point", "regular-singular-point"]
 +++
 
@@ -116,7 +116,8 @@ S:
 Q: Why do we so often need to shift the index in series manipulations?
 A: After differentiating or multiplying by a power of $x$, different terms in an ODE produce series starting at different powers and with different index offsets. Shifting the index rewrites each series with the same generic power $x^m$, so we can combine them and read off the coefficient of each $x^m$.
 
-C: The reindexing $\sum_{n=0}^\infty a_n x^{n-1} = \sum_{m=-1}^\infty [a_{m+1}] x^m$ is a standard shift: substitute $m = n - 1$.
+Q: After the standard index shift $m = n - 1$, what does the series $\sum_{n=0}^\infty a_n x^{n-1}$ become?
+A: $\sum_{m=-1}^\infty a_{m+1} x^m$.
 
 Q: When shifting an index $n \to m$, how do the summation bounds change?
 A: The new lower bound is whatever value of $m$ corresponds to the old lower bound of $n$; the upper bound $+\infty$ stays $+\infty$. E.g., if $m = n - 2$ and $n$ starts at $2$, then $m$ starts at $0$.

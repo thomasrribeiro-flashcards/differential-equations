@@ -1,6 +1,6 @@
 +++
 order = 4
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "applications", "mixing", "cooling", "population", "rc-circuit"]
 +++
 
@@ -31,9 +31,9 @@ A: If $k>0$, $y$ grows without bound (unrestricted population, compound interest
 
 ## 4.3 Half-Life and Doubling Time
 
-C: The [half-life] $t_{1/2}$ of a decaying quantity is the time required for it to fall to half its current value, and for $dy/dt = ky$ with $k<0$ it satisfies $t_{1/2} = \ln 2 / |k|$.
+C: The half-life $t_{1/2}$ of a decaying quantity is the time required for it to fall to half its current value, and for $dy/dt = ky$ with $k<0$ it satisfies [$t_{1/2} = \ln 2 / |k|$].
 
-C: The [doubling time] $t_d$ of an exponentially growing quantity satisfies $t_d = \ln 2 / k$, where $k>0$ is the growth rate in $dy/dt = ky$.
+C: The doubling time $t_d$ of an exponentially growing quantity satisfies [$t_d = \ln 2 / k$], where $k>0$ is the growth rate in $dy/dt = ky$.
 
 Q: Why is the half-life of an exponentially decaying quantity independent of the starting amount?
 A: Because the decay is multiplicative: after one half-life, any amount shrinks by the same factor $1/2$. Algebraically, $y(t_{1/2})/y(0) = e^{kt_{1/2}} = 1/2$ gives $t_{1/2} = \ln 2 / |k|$, which does not involve $y_0$.
@@ -183,7 +183,7 @@ A: Solving $L\, dI/dt + RI = V_s$ with $I(0) = 0$ gives $I(t) = (V_s/R)(1 - e^{-
 Q: Applying Newton's second law, why does an object falling with linear air resistance obey $m\, dv/dt = mg - kv$?
 A: Two forces act: gravity $+mg$ (downward, taken positive) and drag $-kv$ (opposing motion, proportional to velocity for low speeds/small objects). Newton's second law $F = ma = m\, dv/dt$ gives $m\, dv/dt = mg - kv$.
 
-C: A falling object with linear drag obeys $m\, dv/dt = mg - kv$, where $m$ is mass, $g$ is gravitational acceleration, $v$ is velocity (taken positive downward), and $k$ is the [linear drag coefficient].
+C: A falling object with linear drag obeys [$m\, dv/dt = mg - kv$], where $m$ is mass, $g$ is gravitational acceleration, $v$ is velocity (taken positive downward), and $k$ is the linear drag coefficient.
 
 Q: What is the terminal velocity of an object under linear drag, and why does it emerge?
 A: Setting $dv/dt = 0$ in $m\, dv/dt = mg - kv$ gives $v_t = mg/k$. At this velocity, drag exactly balances gravity, so there is no net force and no further acceleration. Any object released from rest accelerates toward this $v_t$, asymptotically.

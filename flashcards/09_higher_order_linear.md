@@ -1,6 +1,6 @@
 +++
 order = 9
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "higher-order", "characteristic-polynomial", "wronskian"]
 +++
 
@@ -123,8 +123,8 @@ where $c_1, c_2, c_3$ are arbitrary real constants.
 
 ## 9.12 Undetermined Coefficients at Higher Order
 
-Q: Does the method of undetermined coefficients change when moving from second-order to $n$-th order constant-coefficient equations?
-A: No — the guess table (polynomial, exponential, sine/cosine, and their products) and the modification rule are identical. The only difference is that the "modification multiplicity" is now the multiplicity of the forcing's exponent as a root of the *higher*-degree characteristic polynomial.
+Q: How does the method of undetermined coefficients change when moving from second-order to $n$-th order constant-coefficient equations?
+A: Hardly at all — the guess table (polynomial, exponential, sine/cosine, and their products) and the modification rule are identical. The only difference is that the "modification multiplicity" is now the multiplicity of the forcing's exponent as a root of the *higher*-degree characteristic polynomial.
 
 C: In undetermined coefficients for an $n$-th order constant-coefficient ODE, if the trial form $y_p$ corresponds to a characteristic root of multiplicity $k$, multiply the trial form by [$x^k$] to avoid duplicating a homogeneous solution.
 

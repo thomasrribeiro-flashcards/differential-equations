@@ -1,6 +1,6 @@
 +++
 order = 12
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "systems", "eigenvalue-method", "phase-portrait", "matrix-exponential"]
 +++
 
@@ -57,7 +57,7 @@ A: Linear means each $x_i'$ is a linear combination of $x_1, \ldots, x_n$ with n
 Q: Why does superposition hold for solutions of $\vec{x}' = A\vec{x}$?
 A: The system is linear, so the map $L[\vec{x}] = \vec{x}' - A\vec{x}$ is a linear operator on vector-valued functions. If $L[\vec{x}_1] = 0$ and $L[\vec{x}_2] = 0$, then for any constants $c_1, c_2$ we have $L[c_1\vec{x}_1 + c_2\vec{x}_2] = c_1 L[\vec{x}_1] + c_2 L[\vec{x}_2] = 0$. Thus linear combinations of solutions are again solutions.
 
-C: If $\vec{x}_1(t)$ and $\vec{x}_2(t)$ solve $\vec{x}' = A\vec{x}$, then any linear combination $c_1\vec{x}_1 + c_2\vec{x}_2$ is also a [solution].
+C: Superposition: if $\vec{x}_1(t)$ and $\vec{x}_2(t)$ solve $\vec{x}' = A\vec{x}$, then so does any [linear combination $c_1\vec{x}_1 + c_2\vec{x}_2$].
 
 C: The set of all solutions of the $n$-dimensional homogeneous system $\vec{x}' = A\vec{x}$ forms a vector space of dimension [$n$].
 
@@ -173,8 +173,8 @@ C: The origin is asymptotically stable for $\vec{x}' = A\vec{x}$ if and only if 
 
 C: If any eigenvalue of $A$ has positive real part, the origin is [unstable], because the corresponding solution mode grows exponentially in time.
 
-Q: If $A$ has a purely imaginary pair of eigenvalues and no other eigenvalues with nonzero real part, is the origin asymptotically stable?
-A: No. Asymptotic stability requires every eigenvalue to have strictly negative real part, but purely imaginary eigenvalues have real part zero. Trajectories neither decay nor grow — they orbit as closed curves (a center). The origin is stable in the sense of Lyapunov (trajectories stay bounded) but not asymptotically stable.
+Q: If $A$ has a purely imaginary pair of eigenvalues and no other eigenvalues with nonzero real part, what kind of stability does the origin have?
+A: Stable in the sense of Lyapunov (trajectories stay bounded) but not asymptotically stable: purely imaginary eigenvalues have real part zero, so trajectories neither decay nor grow — they orbit as closed curves (a center).
 
 ## 12.14 The Matrix Exponential
 

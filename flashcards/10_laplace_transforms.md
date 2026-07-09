@@ -1,6 +1,6 @@
 +++
 order = 10
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "differential-equations", "ode", "laplace-transform", "convolution", "heaviside", "dirac-delta"]
 +++
 
@@ -206,8 +206,8 @@ A: When we solve an ODE via Laplace, the transform of the solution often comes o
 Q: What is the physical interpretation of $(f*g)(t)$ when $g$ is a forcing term and $f$ is the impulse response?
 A: The output at time $t$ is the accumulated effect of all past inputs $g(\tau)$, each weighted by how much of the impulse response $f(t-\tau)$ remains at time $t$. Convolution is a running "weighted memory" of the forcing history.
 
-Q: Is convolution commutative, and why does that make intuitive sense?
-A: Yes: $(f*g)(t) = (g*f)(t)$, which follows from the substitution $\tau \mapsto t - \tau$ in the defining integral. Physically, treating either function as the input and the other as the impulse response gives the same output — the roles are mathematically symmetric.
+Q: Why is convolution commutative, i.e. $(f*g)(t) = (g*f)(t)$?
+A: It follows from the substitution $\tau \mapsto t - \tau$ in the defining integral. Physically, treating either function as the input and the other as the impulse response gives the same output — the roles are mathematically symmetric.
 
 ## 10.16 Putting It Together
 

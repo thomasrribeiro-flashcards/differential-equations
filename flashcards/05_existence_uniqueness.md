@@ -1,6 +1,6 @@
 +++
 order = 5
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "existence-uniqueness", "picard", "lipschitz"]
 +++
 

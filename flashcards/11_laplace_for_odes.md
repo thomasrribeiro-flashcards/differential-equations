@@ -1,6 +1,6 @@
 +++
 order = 11
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "laplace-transform", "partial-fractions", "convolution", "transfer-function"]
 +++
 

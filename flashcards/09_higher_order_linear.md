@@ -1,6 +1,6 @@
 +++
 order = 9
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "higher-order", "characteristic-polynomial", "wronskian"]
 +++
 

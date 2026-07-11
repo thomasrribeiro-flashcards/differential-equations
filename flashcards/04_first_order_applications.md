@@ -1,6 +1,6 @@
 +++
 order = 4
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "applications", "mixing", "cooling", "population", "rc-circuit"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 order = 7
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "nonhomogeneous", "undetermined-coefficients", "variation-of-parameters"]
 +++
 

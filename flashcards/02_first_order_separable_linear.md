@@ -1,6 +1,6 @@
 +++
 order = 2
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "separable", "integrating-factor", "first-order"]
 +++
 

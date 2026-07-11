@@ -1,6 +1,6 @@
 +++
 order = 12
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "systems", "eigenvalue-method", "phase-portrait", "matrix-exponential"]
 +++
 

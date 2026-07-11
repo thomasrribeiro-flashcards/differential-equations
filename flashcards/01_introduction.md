@@ -1,6 +1,6 @@
 +++
 order = 1
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "introduction", "ivp", "slope-field"]
 +++
 

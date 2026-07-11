@@ -1,6 +1,6 @@
 +++
 order = 8
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "differential-equations", "ode", "vibrations", "damping", "resonance", "rlc-circuit"]
 +++
 
